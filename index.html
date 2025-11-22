@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            background-color: #228B22; /* Tom de verde gramado (ForestGreen) */
+        }
+        header h1 {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+    <title>Tudo de futebol</title>
+</head>
+<body class="initial-view">
+    <div id="goal-animation" class="hidden">
+        <span style="--i:1;">G</span>
+        <span style="--i:2;">O</span>
+        <span style="--i:3;">O</span>
+        <span style="--i:4;">O</span>
+        <span style="--i:5;">O</span>
+        <span style="--i:6;">L</span>
+        <span style="--i:7;">!</span>
+    </div>
+    <header>
+        <h1>FUTEBOL</h1>
+        <div>
+            <input type="text" id="caixa-busca" placeholder="Pesquise por um time...">
+            <button id="botao-busca">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="card-container"></div>
+        <div id="initial-state">
+            <div class="initial-content">
+                <h2>Explore o Universo do Futebol</h2>
+                <p>Use a busca para encontrar informações sobre times e muito mais.</p>
+        
+                <div class="kick-animation-trigger">
+                    <p class="kick-text">Chute aqui</p>
+                    <span class="soccer-ball-icon">⚽</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-location">
+                Brasil
+            </div>
+            <ul class="footer-links">
+                <li>
+                    <a href="https://www.flashscore.com" target="_blank" class="footer-social-link">
+                        <img src="https://cdn.brandfetch.io/idh5aJbX0R/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1756800873035" alt="Logo Flashscore" class="flashscore-icon">
+                        <span>Flashscore</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/guinunesof?igsh=MWdkb2luczcwNjZxMg%3D%3D&utm_source=qr" target="_blank" class="footer-social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.703.01 5.556 0 5.829 0 8s.01 2.444.048 3.297c.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.556 15.99 5.829 16 8 16s2.444-.01 3.297-.048c.852-.04 1.433-.174 1.942-.372.526-.205.972-.478 1.417-.923.445-.444.718-.891.923-1.417.198-.51.333-1.09.372-1.942C15.99 10.444 16 10.171 16 8s-.01-2.444-.048-3.297c-.04-.852-.174-1.433-.372-1.942a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.09-.333-1.942-.372C10.444.01 10.171 0 8 0zm0 1.442c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.478.64.599.92.11.282.24.705.275 1.486.039.843.047 1.096.047 3.232s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.64.478-.92.598-.283.11-.706.24-1.486.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.598-.92c-.11-.282-.24-.705-.276-1.485C1.442 10.444 1.434 10.17 1.434 8s.008-2.388.047-3.232c.036-.78.166-1.204.276-1.486.12-.28.318-.64.598-.92.28-.28.64-.478.92-.598.282-.11.705-.24 1.485-.276C5.61 1.442 5.829 1.434 8 1.434zM8 4.25A3.75 3.75 0 1 0 8 11.75 3.75 3.75 0 0 0 8 4.25zM12.25 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5z"/>
+                            <path d="M8 5.75A2.25 2.25 0 1 0 8 10.25 2.25 2.25 0 0 0 8 5.75z"/>
+                        </svg>
+                        <span>Desenvolvido por Guilherme</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

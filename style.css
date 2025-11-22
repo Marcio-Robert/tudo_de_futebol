@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    /* Tema Claro - Futebol */
+    --primary-color: #1a5e20; /* Verde escuro para títulos e destaques */
+    --secondary-color: #333333; /* Cinza escuro para texto principal */
+    --tertiary-color: #888888; /* Cinza médio para texto secundário e placeholders */
+    --bg-color: #f4f6f5; /* Fundo cinza bem claro, quase branco */
+    --card-bg-color: #ffffff; /* Fundo branco para os cards */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+}
+
+/* Classe para ser adicionada ao BODY na tela inicial */
+.initial-view {
+    background-image: url('https://assets.goal.com/images/v3/blt55456c6aa445f207/1bb5dc6e3a3c4a9a803b03848f20eb4a7b36df0b.jpg');
+    background-size: cover; /* Garante que a imagem cubra toda a tela */
+    background-position: center;
+    background-attachment: fixed; /* Mantém a imagem fixa durante a rolagem */
+}
+
+/* Sobreposição escura para a tela inicial, aplicada sobre o fundo do body */
+.initial-view::before {
+    content: '';
+    position: fixed; /* Fixo para cobrir toda a viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Sobreposição preta com 60% de opacidade */
+    z-index: -1; /* Coloca a sobreposição atrás de todo o conteúdo */
+}
+
+/* Estilização da barra de rolagem (para navegadores WebKit) */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color); /* Cor do fundo da trilha da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a5d6a7; /* Verde claro para a barra de rolagem */
+    border-radius: 6px; /* Arredonda as bordas */
+    border: 3px solid var(--bg-color); /* Cria uma borda da mesma cor do fundo para dar um efeito de espaçamento */
+}
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: #228B22; /* Tom de verde gramado (ForestGreen) */
+    z-index: 100; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    border-bottom: 1px solid #e0e0e0; /* Adiciona uma borda inferior sutil */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra leve para destacar o cabeçalho */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: 700; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    color: rgb(255, 255, 255); /* Cor do título (branco) */
+    flex-grow: 1; /* Faz o título ocupar o espaço disponível */
+    text-align: center; /* Centraliza o texto dentro do seu espaço */
+}
+
+/* Classe que ativa a animação na bola */
+.soccer-ball-icon.spin-ball {
+    animation: spin-kick 0.7s ease-out;
+}
+
+
+
+/* Define a animação de rotação */
+@keyframes spin-kick {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+div input {
+    padding: 0.6rem 1rem; /* Espaçamento interno */
+    border-radius: 2rem; /* Bordas totalmente arredondadas (pílula) */
+    border: 1px solid transparent; /* Borda transparente */
+    background: rgba(255, 255, 255, 0.15); /* Fundo branco semitransparente */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 30rem; /* Largura do input */
+    color: #ffffff; /* Cor do texto digitado (branco) */
+    margin-right: .5rem; /* Margem à direita */
+}
+
+div input::placeholder {
+    font-size: 1rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+    color: rgba(255, 255, 255, 0.7); /* Cor do placeholder (branco semitransparente) */
+}
+
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    border-color: #a5d6a7; /* Muda a cor da borda ao focar */
+    background: rgba(255, 255, 255, 0.25); /* Clareia o fundo ao focar */
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+#botao-busca {
+    padding: 0.6rem 1.2rem; /* Espaçamento interno */
+    border-radius: 2rem; /* Bordas totalmente arredondadas (pílula) */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    font-family: inherit; /* Herda a família da fonte */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    transition: all 0.2s ease; /* Transição suave */
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo (branco quase opaco) */
+    color: #1a5e20; /* Cor do texto (verde escuro) */
+    border: 1px solid transparent; /* Adiciona uma borda */
+    display: inline-flex; /* Alinha o ícone e o texto */
+    align-items: center; /* Alinha verticalmente */
+    gap: 0.5rem; /* Espaço entre o ícone e o texto */
+}
+
+/* Adiciona o texto "Buscar" ao lado do ícone */
+#botao-busca::after {
+    content: 'Buscar';
+}
+
+#botao-busca:hover {
+    background-color: #ffffff; /* Fundo branco sólido ao passar o mouse */
+    color: #1a5e20; /* Cor do texto */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Sombra mais pronunciada */
+    animation: pulse 1.5s infinite; /* Aplica a animação de pulso */
+}
+
+/* Animação para o ícone da lupa dentro do botão */
+#botao-busca:hover svg {
+    transform: translateX(3px); /* Move o ícone 3px para a direita */
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+    animation: none; /* Remove a animação de pulso durante o clique */
+}
+
+/* Define a animação de pulso */
+@keyframes pulse {
+    50% { box-shadow: 0 4px 15px rgba(0,0,0,0.25); }
+}
+
+main {
+    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    margin-top: 2rem; /* Margem no topo */
+    padding-bottom: 6rem; /* Adiciona espaço no final para não ser coberto pelo rodapé */
+    position: relative; /* Necessário para o z-index funcionar */
+}
+
+article {
+    background: var(--card-bg-color); /* Fundo do card */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 1rem 1.5rem; /* Espaçamento interno */
+    margin-bottom: 1.25rem; /* Margem inferior */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    border-left: 5px solid #4caf50; /* Borda lateral verde para destaque */
+}
+
+.card-image {
+    width: 60px; /* Largura da imagem */
+    height: 60px; /* Altura da imagem */
+    object-fit: contain; /* Garante que a imagem caiba sem distorcer */
+    float: right; /* Flutua a imagem para a direita */
+    margin-left: 1rem; /* Adiciona um espaço à esquerda da imagem */
+    margin-top: -5px; /* Ajuste fino para alinhar com o topo */
+    opacity: 0.9; /* Leve transparência */
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article:hover {
+    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para uma mão */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+article h2 {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    margin-bottom: 0.25rem; /* Margem inferior */
+    color: var(--primary-color); /* Cor do texto */
+}
+
+article p {
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 1rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+}
+
+article p strong {
+    color: var(--tertiary-color); /* Cor do texto em negrito */
+    font-weight: 400; /* Peso da fonte */
+}
+
+article a {
+    color: #4caf50; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 200; /* Peso da fonte */
+}
+
+article a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer {
+    position: fixed; /* Posição fixa na tela */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    background-color: #228B22; /* Mesmo verde do cabeçalho */
+    padding: 1rem 2rem; /* Espaçamento interno */
+    border-top: 2px solid #a5d6a7; /* Borda superior verde clara para destaque */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Sombra sutil na parte superior */
+    z-index: 50; /* Garante que o rodapé fique acima do conteúdo principal */
+}
+
+.footer-content {
+    max-width: 80rem; /* Mesma largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo do rodapé */
+    display: flex;
+    justify-content: space-between; /* Alinha itens nas extremidades */
+    align-items: center;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    gap: 1rem;
+}
+
+.footer-location {
+    color: rgba(255, 255, 255, 0.8); /* Cor do texto (branco mais transparente) */
+    font-weight: 500;
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: flex-end; /* Alinha os links à direita */
+    gap: 2rem; /* Espaçamento entre os links */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0;
+}
+
+.footer-links a {
+    color: #ffffff; /* Cor do link (branco) */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #a5d6a7; /* Muda para verde claro ao passar o mouse */
+}
+
+.footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaço entre o ícone e o texto */
+}
+
+.instagram-icon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s ease;
+}
+
+.flashscore-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Esconde o rodapé na tela inicial */
+/* .initial-view .footer { z-index: -2; } -> Regra removida */
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    div input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    /* Oculta o texto "Buscar" em telas pequenas, mostrando só o ícone */
+    #botao-busca::after {
+        content: '';
+    }
+
+    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    header > div { /* Estilos para a div DENTRO do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+
+    button { /* Estilos para o botão em telas muito pequenas */
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
+
+/* Estilos para a tela inicial */
+#initial-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10rem); /* Calcula a altura para preencher a tela visível, descontando o cabeçalho */
+    text-align: center;    
+    color: #ffffff; /* Cor do texto padrão para branco para melhor contraste */
+    /* Removemos os estilos de background daqui, pois foram para a classe .initial-view */
+}
+
+.initial-content {
+    position: relative; 
+    z-index: 2; /* Garante que o conteúdo fique na frente da sobreposição */
+}
+
+.initial-content h2 {
+    color: #ffffff; /* Cor do título para branco */
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.initial-content p {
+    font-size: 1.2rem;
+    margin-top: 0; /* Cor já herdada de #initial-state */
+}
+
+.kick-animation-trigger {
+    cursor: pointer;
+    position: fixed; /* Posição fixa em relação à tela */
+    bottom: 4.5rem; /* Altura para ficar logo acima do rodapé */
+    left: 2rem;
+    text-align: center;
+    z-index: 51; /* Garante que fique acima do rodapé */
+}
+
+.kick-text {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.soccer-ball-icon {
+    font-size: 4rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.kick-animation-trigger:hover .soccer-ball-icon {
+    transform: scale(1.1) rotate(15deg);
+}
+
+/* Estilos para a Animação de Gol */
+#goal-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Garante que fique na frente de tudo */
+    pointer-events: none; /* Permite que cliques passem através da animação */
+    overflow: hidden;
+}
+
+#goal-animation.hidden {
+    display: none;
+}
+
+#goal-animation span {
+    font-size: clamp(8rem, 15vw, 18rem); /* Tamanho da fonte responsivo */
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #4caf50,
+        0 0 70px #4caf50;
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-100px) scale(0.5);
+    animation: goal-letter-animation 2s forwards;
+    animation-delay: calc(0.05s * var(--i)); /* Atraso escalonado para cada letra */
+}
+
+@keyframes goal-letter-animation {
+    0%, 100% { opacity: 0; transform: translateY(100px) scale(0.5) rotate(0deg); }
+    10% { opacity: 1; transform: translateY(0) scale(1) rotate(-5deg); }
+    20% { transform: rotate(5deg); }
+    30% { transform: rotate(-5deg); }
+    40%, 80% { transform: rotate(0deg) scale(1.1); }
+    90% { opacity: 1; }
+}

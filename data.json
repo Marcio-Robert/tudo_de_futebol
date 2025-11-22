@@ -1,0 +1,409 @@
+[
+    {
+    "nome":"Futebol",
+    "descrição": "A arte do Futebol",
+    "ano": 1963,
+    "link": "https://www.todamateria.com.br/origem-do-futebol/",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2422/2422022.png"
+},
+  {
+    "nome": "Atlético‑MG",
+    "descrição": "Clube mineiro também conhecido como Galo, com grande tradição e torcida apaixonada.",
+    "ano": 1908,    
+    "link": "https://www.atletico.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Clube_Atl%C3%A9tico_Mineiro_logo.svg"
+  },
+  {
+    "nome": "Bahia",
+    "descrição": "Esporte Clube Bahia, tradicional clube do Nordeste com torcedores fiéis e história rica.",
+    "ano": 1931,
+    "link": "https://www.esporteclubebahia.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Esporte_Clube_Bahia_logo.svg"
+  },
+  {
+    "nome": "Botafogo",
+    "descrição": "Time carioca famoso, conhecido por formar grandes jogadores e ter uma torcida histórica.",
+    "ano": 1904,
+    "link": "https://www.botafogo.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg"
+  },
+  {
+    "nome": "Red Bull Bragantino",
+    "descrição": "Clube paulista com parceria Red Bull, em crescimento no cenário nacional.",
+    "ano": 1928,
+    "link": "https://www.redbullbragantino.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Red-bull-bragantino.svg"
+  },
+  {
+    "nome": "Ceará",
+    "descrição": "Equipe nordestina que retorna à elite do futebol brasileiro, com torcida apaixonada.",
+    "ano": 1914,
+    "link": "https://cearasc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cear%C3%A1_Sporting_Club_logo.svg"
+  },
+  {
+    "nome": "Corinthians",
+    "descrição": "Um dos clubes mais populares do Brasil, com enorme torcida e grande história de títulos.",
+    "ano": 1910,
+    "link": "https://www.corinthians.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SC_Corinthians.svg"
+  },
+  {
+    "nome": "Cruzeiro",
+    "descrição": "Clube mineiro tradicional, com vários títulos nacionais e participação frequente em competições sul-americanas.",
+    "ano": 1921,
+    "link": "https://www.cruzeiro.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cruzeiro_Esporte_Clube_%28logo%29.svg"
+  },
+  {
+    "nome": "Flamengo",
+    "descrição": "O clube mais popular do Brasil, com uma das maiores torcidas do mundo e muitos títulos.",
+    "ano": 1895,
+    "link": "https://www.flamengo.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
+  },
+  {
+    "nome": "Fluminense",
+    "descrição": "Tricolor carioca, tradicional e com grande relevância no futebol nacional.",
+    "ano": 1902,
+    "link": "https://www.fluminense.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3c/FFC_crest.svg"
+  },
+  {
+    "nome": "Fortaleza",
+    "descrição": "Clube cearense com crescimento recente e forte presença nas competições nacionais.",
+    "ano": 1918,
+    "link": "https://www.fortalezaec.net/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/FortalezaEC2021.svg/1200px-FortalezaEC2021.svg.png"
+  },
+  {
+    "nome": "Grêmio",
+    "descrição": "Time gaúcho com tradição, torcedores fiéis e muitos títulos nacionais e internacionais.",
+    "ano": 1903,
+    "link": "https://www.gremio.net/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/35/Gremio_logo.svg"
+  },
+  {
+    "nome": "Internacional",
+    "descrição": "Grande clube do Rio Grande do Sul, conhecido por rivalizar com o Grêmio e por sua garra.",
+    "ano": 1909,
+    "link": "https://www.internacional.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/2/2e/SC_Internacional_Brazil_Logo.svg"
+  },
+  {
+    "nome": "Juventude",
+    "descrição": "Clube da Serra Gaúcha, com história de altos e baixos no futebol brasileiro.",
+    "ano": 1913,
+    "link": "https://www.juventude.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0a/EC_Juventude_logo.svg/1200px-EC_Juventude_logo.svg.png"
+  },
+  {
+    "nome": "Mirassol",
+    "descrição": "Time do interior paulista, que conquistou acesso à Série A e faz história.",
+    "ano": 1925,
+    "link": "https://www.mirassolfc.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f9/Mirassol_Futebol_Clube_logo.svg/1200px-Mirassol_Futebol_Clube_logo.svg.png"
+  },
+  {
+    "nome": "Palmeiras",
+    "descrição": "Um dos clubes mais vencedores do Brasil, com inúmeras conquistas nacionais e internacionais.",
+    "ano": 1914,
+    "link": "https://www.palmeiras.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Palmeiras_logo.svg"
+  },
+  {
+    "nome": "Santos",
+    "descrição": "Clube paulista famoso mundialmente, formador de grandes craques como Pelé e Neymar.",
+    "ano": 1912,
+    "link": "https://www.santosfc.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/1/15/Santos_logo.svg"
+  },
+  {
+    "nome": "São Paulo",
+    "descrição": "Time paulista tricampeão mundial, com forte estrutura e tradição no futebol brasileiro.",
+    "ano": 1930,
+    "link": "https://www.saopaulofc.net/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/4/45/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
+  },
+  {
+    "nome": "Sport",
+    "descrição": "Clube pernambucano tradicional, com grande torcida no Nordeste e campanhas importantes.",
+    "ano": 1905,
+    "link": "https://sportrecife.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/55/Sport_Club_do_Recife_logo.svg/1200px-Sport_Club_do_Recife_logo.svg.png"
+  },
+  {
+    "nome": "Vasco",
+    "descrição": "Clube carioca histórico, com rica trajetória nos campeonatos nacionais e internacionais.",
+    "ano": 1898,
+    "link": "https://www.vasco.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vasco_da_Gama_escudo.svg"
+  },
+  {
+    "nome": "Vitória",
+    "descrição": "Time baiano tradicional, com papel importante no futebol nordestino e no cenário nacional.",
+    "ano": 1899,
+    "link": "https://www.ecvitoria.com.br/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/EC_Vit%C3%B3ria_logo.svg/1200px-EC_Vit%C3%B3ria_logo.svg.png"
+  },
+  {
+    "nome": "Real Madrid",
+    "descrição": "Um dos clubes mais bem-sucedidos e populares do mundo, com uma história repleta de títulos europeus e espanhóis.",
+    "ano": 1902,
+    "link": "https://www.realmadrid.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png"
+  },
+  {
+    "nome": "Barcelona",
+    "descrição": "Clube catalão conhecido por seu estilo de jogo 'tiki-taka' e por ter tido alguns dos maiores jogadores da história.",
+    "ano": 1899,
+    "link": "https://www.fcbarcelona.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/a1/FC_Barcelona_logo.svg.png"
+  },
+  {
+    "nome": "Atlético de Madrid",
+    "descrição": "Grande clube de Madrid, conhecido por sua defesa sólida e torcida apaixonada, rival do Real Madrid.",
+    "ano": 1903,
+    "link": "https://www.atleticodemadrid.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/c1/Atl%C3%A9tico_de_Madrid_logo.svg/1200px-Atl%C3%A9tico_de_Madrid_logo.svg.png"
+  },
+  {
+    "nome": "Manchester United",
+    "descrição": "Um dos clubes mais famosos e vitoriosos da Inglaterra, com uma enorme base de fãs global.",
+    "ano": 1878,
+    "link": "https://www.manutd.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/a1/Man_Utd_FC_.svg.png"
+  },
+  {
+    "nome": "Liverpool",
+    "descrição": "Clube histórico com uma torcida famosa por cantar 'You'll Never Walk Alone', possui muitos títulos ingleses e europeus.",
+    "ano": 1892,
+    "link": "https://www.liverpoolfc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/0/0c/Liverpool_FC.svg.png"
+  },
+  {
+    "nome": "Manchester City",
+    "descrição": "Clube que cresceu exponencialmente nas últimas décadas, tornando-se uma potência no futebol inglês e europeu.",
+    "ano": 1880,
+    "link": "https://www.mancity.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/eb/Manchester_City_FC_badge.svg.png"
+  },
+  {
+    "nome": "Chelsea",
+    "descrição": "Clube de Londres que alcançou grande sucesso no século XXI, vencendo múltiplos títulos nacionais e europeus.",
+    "ano": 1905,
+    "link": "https://www.chelseafc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/c/cf/Chelsea_FC.svg.png"
+  },
+  {
+    "nome": "Arsenal",
+    "descrição": "Tradicional clube de Londres, conhecido por seu estilo de jogo ofensivo e por sua famosa temporada 'Invincibles'.",
+    "ano": 1886,
+    "link": "https://www.arsenal.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png"
+  },
+  {
+    "nome": "Alavés",
+    "descrição": "Clube basco de Vitória-Gasteiz, conhecido por sua resiliência e por chegar à final da Taça UEFA em 2001.",
+    "ano": 1921,
+    "link": "https://www.deportivoalaves.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e6/Deportivo_Alav%C3%A9s_logo.svg/1200px-Deportivo_Alav%C3%A9s_logo.svg.png"
+  },
+  {
+    "nome": "Almería",
+    "descrição": "Clube da Andaluzia que tem alternado entre a primeira e a segunda divisão espanhola.",
+    "ano": 1989,
+    "link": "https://www.udalmeriasad.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/78/UD_Almer%C3%ADa_logo.svg/1200px-UD_Almer%C3%ADa_logo.svg.png"
+  },
+  {
+    "nome": "Athletic Bilbao",
+    "descrição": "Clube basco com uma política única de contratar apenas jogadores de sua região, nunca foi rebaixado da primeira divisão.",
+    "ano": 1898,
+    "link": "https://www.athletic-club.eus/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/98/Athletic_Bilbao_logo.svg/1200px-Athletic_Bilbao_logo.svg.png"
+  },
+  {
+    "nome": "Cádiz",
+    "descrição": "Clube da Andaluzia com uma torcida vibrante, conhecido por sua luta e espírito competitivo.",
+    "ano": 1910,
+    "link": "https://www.cadizcf.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/C%C3%A1diz_CF_logo.svg/1200px-C%C3%A1diz_CF_logo.svg.png"
+  },
+  {
+    "nome": "Celta de Vigo",
+    "descrição": "Clube da Galiza, conhecido por sua forte identidade regional e por revelar bons jogadores.",
+    "ano": 1923,
+    "link": "https://rccelta.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/1c/RC_Celta_de_Vigo_logo.svg/1200px-RC_Celta_de_Vigo_logo.svg.png"
+  },
+  {
+    "nome": "Getafe",
+    "descrição": "Clube dos arredores de Madrid, conhecido por seu estilo de jogo competitivo e defensivo.",
+    "ano": 1983,
+    "link": "https://www.getafecf.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/46/Getafe_CF_logo.svg/1200px-Getafe_CF_logo.svg.png"
+  },
+  {
+    "nome": "Girona",
+    "descrição": "Clube catalão que tem ganhado destaque recente no futebol espanhol com um futebol ofensivo.",
+    "ano": 1930,
+    "link": "https://www.gironafc.cat/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/Girona_FC_logo.svg/1200px-Girona_FC_logo.svg.png"
+  },
+  {
+    "nome": "Granada",
+    "descrição": "Clube da Andaluzia com uma história de participações na primeira divisão e competições europeias.",
+    "ano": 1931,
+    "link": "https://www.granadacf.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d7/Granada_CF_logo.svg/1200px-Granada_CF_logo.svg.png"
+  },
+  {
+    "nome": "Las Palmas",
+    "descrição": "Clube das Ilhas Canárias, conhecido por seu futebol técnico e sua camisa amarela.",
+    "ano": 1949,
+    "link": "https://www.udlaspalmas.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/03/UD_Las_Palmas_logo.svg/1200px-UD_Las_Palmas_logo.svg.png"
+  },
+  {
+    "nome": "Mallorca",
+    "descrição": "Clube da ilha de Maiorca que já teve períodos de grande sucesso no futebol espanhol.",
+    "ano": 1916,
+    "link": "https://www.rcdmallorca.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e0/RCD_Mallorca_logo.svg/1200px-RCD_Mallorca_logo.svg.png"
+  },
+  {
+    "nome": "Osasuna",
+    "descrição": "Clube de Pamplona, Navarra, conhecido por sua garra e pela forte atmosfera em seu estádio, El Sadar.",
+    "ano": 1920,
+    "link": "https://www.osasuna.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ca/CA_Osasuna_logo.svg/1200px-CA_Osasuna_logo.svg.png"
+  },
+  {
+    "nome": "Rayo Vallecano",
+    "descrição": "Clube do bairro de Vallecas, em Madrid, conhecido por sua identidade operária e engajamento social.",
+    "ano": 1924,
+    "link": "https://www.rayovallecano.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Rayo_Vallecano_logo.svg/1200px-Rayo_Vallecano_logo.svg.png"
+  },
+  {
+    "nome": "Real Betis",
+    "descrição": "Clube de Sevilha com uma das torcidas mais apaixonadas da Espanha, grande rival do Sevilla FC.",
+    "ano": 1907,
+    "link": "https://www.realbetisbalompie.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f0/Real_Betis_logo.svg/1200px-Real_Betis_logo.svg.png"
+  },
+  {
+    "nome": "Real Sociedad",
+    "descrição": "Clube basco de San Sebastián, com forte tradição na formação de jogadores e títulos na sua história.",
+    "ano": 1909,
+    "link": "https://www.realsociedad.eus/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/f/f2/Real_Sociedad_logo.svg.png"
+  },
+  {
+    "nome": "Sevilla",
+    "descrição": "Clube da Andaluzia, maior campeão da UEFA Europa League e uma força constante no futebol espanhol.",
+    "ano": 1890,
+    "link": "https://sevillafc.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9f/Sevilla_FC_logo.svg/1200px-Sevilla_FC_logo.svg.png"
+  },
+  {
+    "nome": "Valencia",
+    "descrição": "Um dos grandes clubes da Espanha, com vários títulos nacionais e presença marcante em finais europeias.",
+    "ano": 1919,
+    "link": "https://www.valenciacf.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/ce/Val%C3%A8ncia_CF_logo.svg/1200px-Val%C3%A8ncia_CF_logo.svg.png"
+  },
+  {
+    "nome": "Villarreal",
+    "descrição": "Conhecido como 'Submarino Amarelo', clube de uma pequena cidade que se tornou uma potência na Espanha e na Europa.",
+    "ano": 1923,
+    "link": "https://villarrealcf.es/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/70/Villarreal_CF_logo.svg/1200px-Villarreal_CF_logo.svg.png"
+  },
+  {
+    "nome": "Aston Villa",
+    "descrição": "Clube histórico de Birmingham, um dos fundadores da Football League e campeão europeu.",
+    "ano": 1874,
+    "link": "https://www.avfc.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/1a/Aston_Villa_logo.svg/1200px-Aston_Villa_logo.svg.png"
+  },
+  {
+    "nome": "Bournemouth",
+    "descrição": "Clube do sul da Inglaterra que teve uma ascensão meteórica até a Premier League no século XXI.",
+    "ano": 1899,
+    "link": "https://www.afcb.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e5/AFC_Bournemouth_logo.svg/1200px-AFC_Bournemouth_logo.svg.png"
+  },
+  {
+    "nome": "Brentford",
+    "descrição": "Clube de Londres que retornou à elite do futebol inglês após décadas, conhecido por sua análise de dados.",
+    "ano": 1889,
+    "link": "https://www.brentfordfc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/c/c4/Brentford_FC_logo.svg.png"
+  },
+  {
+    "nome": "Brighton & Hove Albion",
+    "descrição": "Conhecidos como 'The Seagulls', clube do litoral sul que se estabeleceu na Premier League com um futebol atrativo.",
+    "ano": 1901,
+    "link": "https://www.brightonandhovealbion.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1200px-Brighton_%26_Hove_Albion_logo.svg.png"
+  },
+  {
+    "nome": "Crystal Palace",
+    "descrição": "Clube do sul de Londres conhecido por sua atmosfera vibrante no estádio Selhurst Park.",
+    "ano": 1905,
+    "link": "https://www.cpfc.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Crystal_Palace_FC_logo.svg.png"
+  },
+  {
+    "nome": "Everton",
+    "descrição": "Grande rival do Liverpool na cidade, é um dos clubes com mais temporadas na primeira divisão inglesa.",
+    "ano": 1878,
+    "link": "https://www.evertonfc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/ef/Everton_FC_logo.svg/1200px-Everton_FC_logo.svg.png"
+  },
+  {
+    "nome": "Fulham",
+    "descrição": "O clube profissional mais antigo de Londres, sediado no charmoso estádio Craven Cottage.",
+    "ano": 1879,
+    "link": "https://www.fulhamfc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/e/e1/Fulham_FC_logo.svg.png"
+  },
+  {
+    "nome": "Newcastle United",
+    "descrição": "Clube do nordeste da Inglaterra com uma torcida extremamente apaixonada, conhecida como 'Toon Army'.",
+    "ano": 1892,
+    "link": "https://www.nufc.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png"
+  },
+  {
+    "nome": "Nottingham Forest",
+    "descrição": "Clube histórico, famoso por ter sido bicampeão da Taça dos Campeões Europeus no final dos anos 70.",
+    "ano": 1865,
+    "link": "https://www.nottinghamforest.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/d/d2/Nottingham_Forest_logo.svg.png"
+  },
+  {
+    "nome": "Tottenham Hotspur",
+    "descrição": "Clube do norte de Londres, conhecido por seu lema 'To Dare Is to Do' e por seu futebol ofensivo.",
+    "ano": 1882,
+    "link": "https://www.tottenhamhotspur.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/69/Tottenham_Hotspur_logo.svg/1200px-Tottenham_Hotspur_logo.svg.png"
+  },
+  {
+    "nome": "West Ham United",
+    "descrição": "Clube do leste de Londres, famoso por sua 'Academia de Futebol' e pela torcida que canta 'I'm Forever Blowing Bubbles'.",
+    "ano": 1895,
+    "link": "https://www.whufc.com/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/c/c2/West_Ham_United_FC_logo.svg.png"
+  },
+  {
+    "nome": "Wolverhampton Wanderers",
+    "descrição": "Conhecidos como 'Wolves', clube tradicional das Midlands com forte conexão com jogadores portugueses recentemente.",
+    "ano": 1877,
+    "link": "https://www.wolves.co.uk/",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fc/Wolverhampton_Wanderers.svg/1200px-Wolverhampton_Wanderers.svg.png"
+  }
+  
+]
